@@ -16,9 +16,8 @@ The following platforms are supported by this cookbook, meaning that the recipes
 
 ## Recipes
 
-* `nodejs` - The default recipe. This sets up the apt repository and installs common packages.
-* `nodejs::dev` - Install the development libraries.
-* `nodejs::npm` - Install `npm`.
+* `nodejs` - The default recipe. This sets up the apt repository and installs common packages and development libraries.
+* `nodejs::npm` - Install `npm`.   _NOTE: `node.js-legacy` only_
 
 
 ## Usage
@@ -41,6 +40,8 @@ Many thanks go to the following who have contributed to making this gem even bet
 
 * **[@iafonov](https://github.com/iafonov)**
   * support for more Ubuntu versions
+* **[@nshahzad](https://github.com/nshahzad)**
+  * add node.js-legacy repository
 
 
 ## License
